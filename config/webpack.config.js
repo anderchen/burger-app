@@ -437,6 +437,7 @@ module.exports = function(webpackEnv) {
                 sourceMap: isEnvProduction && shouldUseSourceMap,
                 modules: true,
                 getLocalIdent: getCSSModuleLocalIdent,
+                
               }),
             },
             // Opt-in support for SASS (using .scss or .sass extensions).
